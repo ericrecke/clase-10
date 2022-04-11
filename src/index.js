@@ -13,8 +13,8 @@ ReactDOM.render(
   <React.StrictMode>
     <App/>
     <Button text="Click me!"/>
-    <Image src='/img/bg.jpg' alt='Background'width='300' height='300'/>
-    <List items={new List(['Izuku','Uraraka','Shoto'])}/>
+    <Image src='./img/tanjiro.jpg' alt='Background' width='1200' height='800'/>
+    <List items={['Tanjiro','Nezuko','Inozuke']}/>
     <Sound src='/sounds/music.mp3' type='audio/mpeg' autoplay="false"/>
   </React.StrictMode>,
 

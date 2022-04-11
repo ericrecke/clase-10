@@ -4,7 +4,7 @@ export default class List extends React.Component {
     return (
       <div>
         <ol>
-          {this.props.items.props.map((item) => {
+          {this.props.items.map((item) => {
             return <li>{item}</li>;
           })}
         </ol>
