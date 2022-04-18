@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Button from './components/Button';
+import ButtonReact from './components/Button';
 import Image from './components/Image';
 import List from './components/List';
 import Sound from './components/Sound';
@@ -12,7 +12,7 @@ import Sound from './components/Sound';
 ReactDOM.render(
   <React.StrictMode>
     <App/>
-    <Button text="Click me!"/>
+    <ButtonReact text="Click me!"/>
     <Image src='./img/tanjiro.jpg' alt='Background' width='1200' height='800'/>
     <List items={['Tanjiro','Nezuko','Inozuke']}/>
     <Sound src='/sounds/music.mp3' type='audio/mpeg' autoplay="false"/>
